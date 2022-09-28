@@ -1,0 +1,90 @@
+img{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+body{
+    margin: 0;
+    background: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.1em;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+.bg{ 
+    position: absolute;
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+    width:100%; 
+    z-index:-1;
+    opacity: 0.4;
+}
+#headerID{
+      text-align: center;
+      min-height: 450px;
+      color: #eaeaea;
+}
+#headerID h1{
+   padding-top:100px ;
+   padding-bottom: 0%;
+
+}
+#headerID p{
+    color: #eaeaea;
+   
+}
+.btn{
+    background: #333;
+    border: 1px, solid, #333;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+.btn:hover{
+    background: #fff;
+    color: black;
+    cursor:pointer; 
+}
+h2{
+   margin: 0%;
+    padding:1em;
+}
+p{
+    margin: 0%;
+    padding:1em;
+}
+#section-a{
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+    display: block;
+}
+#section-b{
+    display: grid;
+    padding: 2em;
+}
+#section-b ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+}
+#section-b li{
+    background: #eaeaea;
+    color: #333;
+    width: 31%;
+    margin-bottom: 1em;
+
+}
+#section-c{
+    background: #eaeaea;
+    color:#333;
+    padding: 1em 3em 0 3em;
+    
+}
